@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" context="IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Learning HTML Form</title>
+    </head>
+    <body>
+        <main>
+            <form>
+                <section>
+                    <h1>Personal Info</h1>
+                    <p>
+                        <label for="">Full Name</label>
+                        <input type="text" id="fname" class="input-field"
+                        placeholder="Input your Fullname" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label>Password</label>
+                        <input type="password" name="mypassword" id="mypassword">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" id="email" name="email"
+                        placeholder="Enter your Email" maxlength="50" required>
+                    </p>
+                    <p>
+                        <span>Status</span>
+                        <label for="status-single">
+                            <input type="radio" name="status" id="status-single"
+                            value="S">Single
+                        </label>
+                        <label for="status-married">
+                            <input type="radio" name="status" id="status-married"
+                            value="M">Married
+                        </label>
+                        <label for="status-widow">
+                            <input type="radio" name="status" id="status-widow"
+                            value="W">Widow
+                        </label>
+                    </p>
+                    <p>
+                       DOB
+                       <input type="date" name="dob" id="dob" required>
+                    </p>
+                    <p>
+                        <span>Age</spa>
+                        <input type="Number" id="age" name="age">
+                    </p>
+                    <p>
+                        <span>Government Benefits</span>
+                    <label for="SSS">
+                        <input type="checkbox" name="sss" id="sss">SSS
+                    </label>
+                  
+                    <label for="HDMF">
+                        <input type="checkbox" name="hdmf" id="hdmf">HDMF
+                    </label>
+                    
+                    <label for="Philhealth">
+                        <input type="checkbox" name="philhealth" id="philhealth">Philhealth
+                    </label>
+                    </p>
+                    <p>
+                        <label>Preferred Schedule</label>
+                        <input type="time" name="time" id="time">
+                    </p>
+                    <p>
+                        <span>Payout Options</span>
+                        <select name="date">
+                       <option value="weekly">Weekly</option>
+                       <option value="monthly">Monthly</option>
+                       <option value="Yearly">Yearly</option>
+                    </select>
+                    </p>
+                    <p>
+                        <label>Internet Provider</label>
+                        <input type="text" name="internet provider" id="internet provider">
+                    </p>
+                    <p>
+                        <label>Additional Info</label>
+                        <textarea name="comments"></textarea>
+                    </p>
+                        <button>Submit Form</button>
+                </section>
+            </form>
+        </main>
+    </body>
+
+</html>
